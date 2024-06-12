@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Mukta", sans-serif;
+}
+header{
+    background-color: cadetblue;
+    height: 50px;
+}
+
+header h1{
+    color: rgb(125, 236, 125);
+    text-align: center;
+    text-shadow: 2px 4px 6px black;
+    padding: 5px;
+} 
+.row{
+    background-color: rgb(212, 231, 212);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.col{
+    background-color: cadetblue;
+    padding: 10px;
+    height: 350px;
+    width: 350px;
+    border: 2px inset rgb(137, 104, 171);
+    margin-top: 50px;
+
+}
+img{
+    height: 200px;
+    width: 150px;
+    border: 2px ridge rgb(137, 104, 171);
+    margin-left: 70px;
+    border-radius: 30%;
+} 
+h2{
+    color: rgb(117, 143, 117);
+    text-shadow: 2px 4px 6px black;
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+h4{
+    color: darkred;
+    font-weight: bolder;
+    margin-top: 20px;
+
+}
+#btn{
+    background-color: green;
+    color: rgb(193, 205, 216);
+    padding: 10px;
+    border-radius: 10%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+footer{
+    background-color: cadetblue;
+    height: 35px;
+    width: 100%;
+}
+h3{
+    color: rgb(206, 221, 206);
+    text-align: center;
+    font-size: 25px;
+}
+p{
+    margin-left: 20px;
+    color: rgb(76, 76, 155);
+    background-color: rgb(212, 231, 212) ;
+}
+.banner{
+    background-image: url(https://scholarlykitchen.sspnet.org/wp-content/uploads/2018/07/iStock-506432952.jpg);
+    width: 100%;
+    height: 400px;
+}
